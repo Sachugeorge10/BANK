@@ -7,5 +7,5 @@ function register() {
   localStorage.setItem("ACCOUNT NUMBER", accountnum);
   localStorage.setItem("PASSWORD", pasword);
   alert("your data entered sucessfully");
-  window.location='./front.html'
+  window.location='./index.html'
 }

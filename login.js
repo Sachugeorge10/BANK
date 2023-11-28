@@ -26,8 +26,9 @@ function check() {
   ) {
     window.location = "./home.html";
   } else {
-    
-    document.getElementById("result").innerHTML = `<div style="font-size: 30px; " class="text-bg-light text-danger">
+    document.getElementById(
+      "result"
+    ).innerHTML = `<div style="font-size: 30px; " class="text-bg-light text-danger">
     OOPS SORRY SOME ERROR Found
   </div>;`;
   }
